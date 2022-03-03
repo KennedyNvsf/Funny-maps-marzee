@@ -1,0 +1,25 @@
+
+
+.cardContainer {
+
+    padding: 6px;
+    margin: 12px;
+    width: 20rem;
+    box-shadow: 0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a;
+    border-radius: 1rem;
+    transition: all 0.5s ease-out;
+    text-align: center;
+    background: white;
+
+    img{
+
+        height: 120px;
+    }
+
+    &:hover {
+
+        transform: scale(1.1);
+        background-color: whitesmoke;
+        color: rgb(57, 221, 57);
+    }
+}
